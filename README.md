@@ -1,4 +1,4 @@
-# cv_yolo_scaffold
+# Brain Tumor Recognizer
 A scaffold for deploying dockerized flask applications showcasing student computer vision projects using yolo.
 
 ### File Structure
