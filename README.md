@@ -1,6 +1,6 @@
 # Brain Tumor Recognizer
-A scaffold for deploying dockerized flask applications showcasing student computer vision projects using yolo.
-
+#### **[Click here for the original dataset](https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri)**.
+---
 ### File Structure
 The files/directories which you will need to edit are **bolded**, and the files you may need to edit are *italicized*.
 DO NOT TOUCH OTHER FILES.

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Let's Define">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Definitions + YOLO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'nicepage.css')}}" media="screen">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'Definitions-+-YOLO.css')}}" media="screen">
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename= 'jquery-1.9.1.min.js')}}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename= 'nicepage.js')}}" defer=""></script>
+    <meta name="generator" content="Nicepage 3.20.8, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca:400|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i">
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "https://static.wixstatic.com/media/12b467_a4ceef0f338c41c7885cb083ea36a00f~mv2_d_1742_1743_s_2.png/v1/fill/w_216,h_220,al_c,q_85,usm_0.66_1.00_0.01/ai%20camp%20logo.webp"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Definitions + YOLO">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-2dae"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://ai-camp.org" class="u-image u-logo u-image-1" data-image-width="216" data-image-height="220">
+          <img src="https://static.wixstatic.com/media/12b467_a4ceef0f338c41c7885cb083ea36a00f~mv2_d_1742_1743_s_2.png/v1/fill/w_216,h_220,al_c,q_85,usm_0.66_1.00_0.01/ai%20camp%20logo.webp" class="u-logo-image u-logo-image-1" data-image-width="64">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position="">
+          <div class="menu-collapse u-custom-font" style="font-size: 1.5rem; letter-spacing: 0px; font-family: &quot;Zilla Slab&quot;;">
+            <a class="u-button-style u-custom-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-nav u-spacing-0 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-custom-color-2 u-nav-link" href="{{url_for('home')}}" style="padding: 20px 35px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-2 u-nav-link" href="{{url_for('meetTheTeam')}}" style="padding: 20px 35px;">Meet the Team</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-2 u-nav-link" href="{{url_for('projectTimeline')}}" style="padding: 20px 35px;">Project Timeline</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-2 u-nav-link" href="{{url_for('yolo_def')}}" style="padding: 20px 35px;">Definitions + YOLO</a>
+</li><li class="u-nav-item"><a class="u-button-style u-custom-color-2 u-nav-link" href="https://www.ai-camp.org/" target="_blank" style="padding: 20px 35px;">Join AI Camp</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url_for('home')}}" style="padding: 20px 35px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url_for('meetTheTeam')}}" style="padding: 20px 35px;">Meet the Team</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url_for('projectTimeline')}}" style="padding: 20px 35px;">Project Timeline</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url_for('yolo_def')}}" style="padding: 20px 35px;">Definitions + YOLO</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://www.ai-camp.org/" target="_blank" style="padding: 20px 35px;">Join AI Camp</a>
+</ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-custom-color-2 u-section-1" id="sec-cac0">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-default u-text-1">Let's Define</h1>
+        <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{{url_for('static', filename = 'images/ScreenShot2021-07-20at3.14.33PM.png')}}" alt="" data-image-width="270" data-image-height="192">
+        <img class="u-image u-image-default u-preserve-proportions u-image-2" src="{{url_for('static', filename = 'images/ScreenShot2021-07-20at3.14.42PM.png')}}" alt="" data-image-width="270" data-image-height="192">
+      </div>
+    </section>
+    <section class="u-clearfix u-custom-color-2 u-section-2" id="sec-0d39">
+      <div class="u-custom-color-6 u-shape u-shape-rectangle u-shape-1"></div>
+      <div class="u-list u-list-1">
+        <div class="u-repeater u-repeater-1">
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
+              <div class="u-align-center u-container-style u-custom-color-5 u-group u-shape-rectangle u-group-1">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-custom-font u-text u-text-1">AI<br>
+                  </p>
+                  <p class="u-custom-font u-text u-text-2"> Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.​&nbsp;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
+              <div class="u-align-center u-container-style u-custom-color-3 u-group u-shape-rectangle u-group-2">
+                <div class="u-container-layout u-container-layout-4">
+                  <p class="u-custom-font u-text u-text-3">Machine Learning</p>
+                  <p class="u-custom-font u-text u-text-4"> Machine learning is a branch of AI which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-5">
+              <div class="u-align-center u-container-style u-custom-color-5 u-group u-shape-rectangle u-group-3">
+                <div class="u-container-layout u-container-layout-6">
+                  <p class="u-custom-font u-text u-text-5">Deep Learning</p>
+                  <p class="u-custom-font u-text u-text-6"> Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-7">
+              <div class="u-align-center u-container-style u-custom-color-3 u-group u-shape-rectangle u-group-4">
+                <div class="u-container-layout u-container-layout-8">
+                  <p class="u-custom-font u-text u-text-7">Neural Networks</p>
+                  <p class="u-custom-font u-text u-text-8"> Neural networks are a subset of ML and are at the heart of deep learning algorithms. Their structure is inspired by the human brain, mimicking the way that biological neurons signal to one another.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-9">
+              <div class="u-align-center u-container-style u-custom-color-5 u-group u-shape-rectangle u-group-5">
+                <div class="u-container-layout u-container-layout-10">
+                  <p class="u-custom-font u-text u-text-9">CNN Models</p>
+                  <p class="u-custom-font u-text u-text-10"> CNN stands for Convolutional Neural Network.  A CNN model is an efficient recognition algorithm which is widely used in pattern recognition and image processing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-11">
+              <div class="u-align-center u-container-style u-custom-color-3 u-group u-shape-rectangle u-group-6">
+                <div class="u-container-layout u-container-layout-12">
+                  <p class="u-custom-font u-text u-text-11">Confusion Matrix</p>
+                  <p class="u-custom-font u-text u-text-12"> A confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-13">
+              <div class="u-align-center u-container-style u-custom-color-5 u-group u-shape-rectangle u-group-7">
+                <div class="u-container-layout u-container-layout-14">
+                  <p class="u-custom-font u-text u-text-13">Dataset</p>
+                  <p class="u-custom-font u-text u-text-14"> A dataset is a broad term for the raw data that we feed into our machine learning algorithm to train and test our model.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-15">
+              <div class="u-align-center u-container-style u-custom-color-3 u-group u-shape-rectangle u-group-8">
+                <div class="u-container-layout u-container-layout-16">
+                  <p class="u-custom-font u-text u-text-15">Labeling</p>
+                  <p class="u-custom-font u-text u-text-16"> Labeling is the process of identifying raw data and adding informative labels to provide context so that a machine learning model can learn from it.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-17">
+              <div class="u-align-center u-container-style u-custom-color-5 u-group u-shape-rectangle u-group-9">
+                <div class="u-container-layout u-container-layout-18">
+                  <p class="u-custom-font u-text u-text-17">Python</p>
+                  <p class="u-custom-font u-text u-text-18"> Python is an interpreted high-level general-purpose programming language.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="u-custom-color-4 u-shape u-shape-rectangle u-shape-2"></div>
+    </section>
+    <section class="u-clearfix u-custom-color-2 u-section-3" id="sec-2401">
+      <h1 class="u-align-center u-custom-font u-text u-text-1">YOLO Architecture </h1>
+      <h2 class="u-align-center u-custom-font u-text u-text-2"> The object detection algorithm we used in this project was YOLO, a CNN for conducting object detection in real-time.&nbsp;</h2>
+      <h3 class="u-align-center u-custom-font u-text u-text-3"> The algorithm applies a neural network to the full image, and then divides the image into regions and predicts bounding boxes and probabilities for each region.</h3>
+      <div class="u-custom-color-4 u-shape u-shape-rectangle u-shape-1"></div>
+    </section>
+    <section class="u-clearfix u-custom-color-2 u-section-4" id="sec-a140">
+      <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-style u-layout-cell u-size-24 u-layout-cell-1">
+              <div class="u-container-layout u-valign-bottom u-container-layout-1">
+                <h3 class="u-custom-font u-text u-text-default u-text-1">Why YOLO? </h3>
+                <h4 class="u-align-center u-custom-font u-text u-text-2">YOLO achieves high accuracy while also being able to run in real-time. The algorithm “only looks once” at the image in the sense that it requires only one forward propagation pass through the neural network to make predictions.<br>
+                  <br>After non-max suppression (which makes sure the object detection algorithm only detects each object once), it then outputs recognized objects together with the bounding boxes.
+                </h4>
+              </div>
+            </div>
+            <div class="u-container-style u-layout-cell u-size-36 u-layout-cell-2">
+              <div class="u-container-layout u-valign-middle u-container-layout-2">
+                <div class="u-custom-color-4 u-radius-30 u-shape u-shape-round u-shape-1"></div>
+                <div class="u-custom-color-3 u-radius-30 u-shape u-shape-round u-shape-2"></div>
+                <img class="u-image u-image-default u-image-1" src="https://www.haxed.dk/tablesoccer/public/img/yolo-architecture.png" alt="" data-image-width="1920" data-image-height="806">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="u-custom-color-4 u-shape u-shape-rectangle u-shape-3"></div>
+    </section>
+    <section class="u-clearfix u-custom-color-2 u-section-5" id="sec-2286">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-align-center u-custom-font u-text u-text-1">YOLO Visualization</h1>
+<!--         <h2 class="u-align-center u-custom-font u-text u-text-2"> Non-max suppression is the final step of object detection algorithms. It entails ➢</h2> -->
+      </div>
+    </section>
+    <section class="u-clearfix u-custom-color-2 u-section-6" id="sec-1cee">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-col">
+              <div class="u-size-20">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-layout-cell u-size-35 u-layout-cell-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1">
+                      <div class="u-container-style u-custom-color-5 u-group u-radius-28 u-shape-round u-group-1">
+                        <div class="u-container-layout u-valign-middle u-container-layout-2">
+                          <p class="u-align-center u-custom-font u-text u-text-grey-80 u-text-1"> create a grid over the input image</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="u-container-style u-layout-cell u-size-25 u-layout-cell-2">
+                    <div class="u-container-layout u-valign-top u-container-layout-3">
+                      <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{{url_for('static', filename='images/ScreenShot2021-07-20at11.23.56PM.png')}}" alt="" data-image-width="306" data-image-height="294">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-size-20">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-layout-cell u-size-35 u-layout-cell-3">
+                    <div class="u-container-layout u-container-layout-4">
+                      <div class="u-rotation-parent u-rotation-parent-1"><span class="u-icon u-icon-circle u-rotate-270 u-text-grey-80 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 511" style=""><use xlink:href="#svg-3772"></use></svg><svg class="u-svg-content" viewBox="0 0 512 511" id="svg-3772"><path d="m143.871094 512.484375c-10.398438 0-20.597656-4.0625-28.28125-11.734375l-97.960938-97.753906c-11.367187-11.34375-17.628906-26.433594-17.628906-42.492188s6.261719-31.152344 17.628906-42.496094l97.960938-97.753906c11.511718-11.492187 28.664062-14.886718 43.695312-8.652344 15.011719 6.226563 24.710938 20.742188 24.710938 36.976563v91.921875c158.804687 0 288.003906-129.199219 288.003906-288.003906v-31.996094c0-11.046875 8.953125-20 20-20s20 8.953125 20 20v31.996094c0 87.613281-34.117188 169.984375-96.070312 231.9375-61.953126 61.949218-144.320313 96.070312-231.933594 96.070312-22.058594 0-40.003906-17.945312-40.003906-40v-91.925781c0-.003906 0-.007813 0-.011719-.03125-.015625-.070313-.03125-.105469-.042968-.011719.015624-.027344.027343-.042969.042968l-97.960938 97.757813c-3.792968 3.785156-5.882812 8.820312-5.882812 14.179687s2.089844 10.394532 5.882812 14.179688l97.960938 97.753906.042969.042969c.035156-.011719.074219-.023438.105469-.039063 0-.003906 0-.007812 0-.015625v-21.921875c0-11.046875 8.957031-20 20.003906-20 11.042968 0 20 8.953125 20 20v21.921875c0 16.234375-9.699219 30.75-24.710938 36.976563-4.996094 2.074218-10.230468 3.082031-15.414062 3.082031zm0 0"></path></svg></span>
+                      </div>
+                      <div class="u-rotation-parent u-rotation-parent-2"><span class="u-icon u-icon-circle u-rotate-270 u-icon-2"><svg class="u-svg-link u-flip-vertical" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 511" style=""><use xlink:href="#svg-e5d4"></use></svg><svg class="u-svg-content" viewBox="0 0 512 511" id="svg-e5d4"><path d="m143.871094 512.484375c-10.398438 0-20.597656-4.0625-28.28125-11.734375l-97.960938-97.753906c-11.367187-11.34375-17.628906-26.433594-17.628906-42.492188s6.261719-31.152344 17.628906-42.496094l97.960938-97.753906c11.511718-11.492187 28.664062-14.886718 43.695312-8.652344 15.011719 6.226563 24.710938 20.742188 24.710938 36.976563v91.921875c158.804687 0 288.003906-129.199219 288.003906-288.003906v-31.996094c0-11.046875 8.953125-20 20-20s20 8.953125 20 20v31.996094c0 87.613281-34.117188 169.984375-96.070312 231.9375-61.953126 61.949218-144.320313 96.070312-231.933594 96.070312-22.058594 0-40.003906-17.945312-40.003906-40v-91.925781c0-.003906 0-.007813 0-.011719-.03125-.015625-.070313-.03125-.105469-.042968-.011719.015624-.027344.027343-.042969.042968l-97.960938 97.757813c-3.792968 3.785156-5.882812 8.820312-5.882812 14.179687s2.089844 10.394532 5.882812 14.179688l97.960938 97.753906.042969.042969c.035156-.011719.074219-.023438.105469-.039063 0-.003906 0-.007812 0-.015625v-21.921875c0-11.046875 8.957031-20 20.003906-20 11.042968 0 20 8.953125 20 20v21.921875c0 16.234375-9.699219 30.75-24.710938 36.976563-4.996094 2.074218-10.230468 3.082031-15.414062 3.082031zm0 0"></path></svg></span>
+                      </div>
+                      <div class="u-align-center u-container-style u-custom-color-3 u-group u-radius-28 u-shape-round u-group-2">
+                        <div class="u-container-layout u-valign-middle u-container-layout-5">
+                          <p class="u-custom-font u-text u-text-grey-80 u-text-2"> creates bounding boxes throughout the grid along with its confidence in the prediction</p>
+                        </div>
+                      </div>
+                      <div class="u-align-center u-container-style u-custom-color-3 u-group u-radius-28 u-shape-round u-group-3">
+                        <div class="u-container-layout u-valign-top u-container-layout-6">
+                          <p class="u-custom-font u-text u-text-grey-80 u-text-3"> creates a class probability map using the confidence in how likely each item is to be there</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="u-container-style u-layout-cell u-size-25 u-layout-cell-4">
+                    <div class="u-container-layout u-container-layout-7">
+                      <div class="u-rotation-parent u-rotation-parent-3"><span class="u-icon u-icon-circle u-rotate-270 u-icon-3"><svg class="u-svg-link u-flip-vertical" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 511" style=""><use xlink:href="#svg-32be"></use></svg><svg class="u-svg-content" viewBox="0 0 512 511" id="svg-32be"><path d="m143.871094 512.484375c-10.398438 0-20.597656-4.0625-28.28125-11.734375l-97.960938-97.753906c-11.367187-11.34375-17.628906-26.433594-17.628906-42.492188s6.261719-31.152344 17.628906-42.496094l97.960938-97.753906c11.511718-11.492187 28.664062-14.886718 43.695312-8.652344 15.011719 6.226563 24.710938 20.742188 24.710938 36.976563v91.921875c158.804687 0 288.003906-129.199219 288.003906-288.003906v-31.996094c0-11.046875 8.953125-20 20-20s20 8.953125 20 20v31.996094c0 87.613281-34.117188 169.984375-96.070312 231.9375-61.953126 61.949218-144.320313 96.070312-231.933594 96.070312-22.058594 0-40.003906-17.945312-40.003906-40v-91.925781c0-.003906 0-.007813 0-.011719-.03125-.015625-.070313-.03125-.105469-.042968-.011719.015624-.027344.027343-.042969.042968l-97.960938 97.757813c-3.792968 3.785156-5.882812 8.820312-5.882812 14.179687s2.089844 10.394532 5.882812 14.179688l97.960938 97.753906.042969.042969c.035156-.011719.074219-.023438.105469-.039063 0-.003906 0-.007812 0-.015625v-21.921875c0-11.046875 8.957031-20 20.003906-20 11.042968 0 20 8.953125 20 20v21.921875c0 16.234375-9.699219 30.75-24.710938 36.976563-4.996094 2.074218-10.230468 3.082031-15.414062 3.082031zm0 0"></path></svg></span>
+                      </div>
+                      <div class="u-rotation-parent u-rotation-parent-4"><span class="u-icon u-icon-circle u-rotate-270 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 511" style=""><use xlink:href="#svg-f7db"></use></svg><svg class="u-svg-content" viewBox="0 0 512 511" id="svg-f7db"><path d="m143.871094 512.484375c-10.398438 0-20.597656-4.0625-28.28125-11.734375l-97.960938-97.753906c-11.367187-11.34375-17.628906-26.433594-17.628906-42.492188s6.261719-31.152344 17.628906-42.496094l97.960938-97.753906c11.511718-11.492187 28.664062-14.886718 43.695312-8.652344 15.011719 6.226563 24.710938 20.742188 24.710938 36.976563v91.921875c158.804687 0 288.003906-129.199219 288.003906-288.003906v-31.996094c0-11.046875 8.953125-20 20-20s20 8.953125 20 20v31.996094c0 87.613281-34.117188 169.984375-96.070312 231.9375-61.953126 61.949218-144.320313 96.070312-231.933594 96.070312-22.058594 0-40.003906-17.945312-40.003906-40v-91.925781c0-.003906 0-.007813 0-.011719-.03125-.015625-.070313-.03125-.105469-.042968-.011719.015624-.027344.027343-.042969.042968l-97.960938 97.757813c-3.792968 3.785156-5.882812 8.820312-5.882812 14.179687s2.089844 10.394532 5.882812 14.179688l97.960938 97.753906.042969.042969c.035156-.011719.074219-.023438.105469-.039063 0-.003906 0-.007812 0-.015625v-21.921875c0-11.046875 8.957031-20 20.003906-20 11.042968 0 20 8.953125 20 20v21.921875c0 16.234375-9.699219 30.75-24.710938 36.976563-4.996094 2.074218-10.230468 3.082031-15.414062 3.082031zm0 0"></path></svg></span>
+                      </div>
+                      <img class="u-image u-image-default u-preserve-proportions u-image-2" src="{{url_for('static', filename='images/ScreenShot2021-07-20at11.31.37PM.png')}}" alt="" data-image-width="306" data-image-height="294">
+                      <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{{url_for('static', filename='images/ScreenShot2021-07-20at11.31.55PM.png')}}" alt="" data-image-width="306" data-image-height="294">
+                      <div class="u-rotation-parent u-rotation-parent-5"><span class="u-icon u-icon-circle u-rotate-270 u-icon-5"><svg class="u-svg-link u-flip-vertical" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 511" style=""><use xlink:href="#svg-c0ca"></use></svg><svg class="u-svg-content" viewBox="0 0 512 511" id="svg-c0ca"><path d="m143.871094 512.484375c-10.398438 0-20.597656-4.0625-28.28125-11.734375l-97.960938-97.753906c-11.367187-11.34375-17.628906-26.433594-17.628906-42.492188s6.261719-31.152344 17.628906-42.496094l97.960938-97.753906c11.511718-11.492187 28.664062-14.886718 43.695312-8.652344 15.011719 6.226563 24.710938 20.742188 24.710938 36.976563v91.921875c158.804687 0 288.003906-129.199219 288.003906-288.003906v-31.996094c0-11.046875 8.953125-20 20-20s20 8.953125 20 20v31.996094c0 87.613281-34.117188 169.984375-96.070312 231.9375-61.953126 61.949218-144.320313 96.070312-231.933594 96.070312-22.058594 0-40.003906-17.945312-40.003906-40v-91.925781c0-.003906 0-.007813 0-.011719-.03125-.015625-.070313-.03125-.105469-.042968-.011719.015624-.027344.027343-.042969.042968l-97.960938 97.757813c-3.792968 3.785156-5.882812 8.820312-5.882812 14.179687s2.089844 10.394532 5.882812 14.179688l97.960938 97.753906.042969.042969c.035156-.011719.074219-.023438.105469-.039063 0-.003906 0-.007812 0-.015625v-21.921875c0-11.046875 8.957031-20 20.003906-20 11.042968 0 20 8.953125 20 20v21.921875c0 16.234375-9.699219 30.75-24.710938 36.976563-4.996094 2.074218-10.230468 3.082031-15.414062 3.082031zm0 0"></path></svg></span>
+                      </div>
+                      <div class="u-rotation-parent u-rotation-parent-6"><span class="u-icon u-icon-circle u-rotate-270 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 511" style=""><use xlink:href="#svg-605b"></use></svg><svg class="u-svg-content" viewBox="0 0 512 511" id="svg-605b"><path d="m143.871094 512.484375c-10.398438 0-20.597656-4.0625-28.28125-11.734375l-97.960938-97.753906c-11.367187-11.34375-17.628906-26.433594-17.628906-42.492188s6.261719-31.152344 17.628906-42.496094l97.960938-97.753906c11.511718-11.492187 28.664062-14.886718 43.695312-8.652344 15.011719 6.226563 24.710938 20.742188 24.710938 36.976563v91.921875c158.804687 0 288.003906-129.199219 288.003906-288.003906v-31.996094c0-11.046875 8.953125-20 20-20s20 8.953125 20 20v31.996094c0 87.613281-34.117188 169.984375-96.070312 231.9375-61.953126 61.949218-144.320313 96.070312-231.933594 96.070312-22.058594 0-40.003906-17.945312-40.003906-40v-91.925781c0-.003906 0-.007813 0-.011719-.03125-.015625-.070313-.03125-.105469-.042968-.011719.015624-.027344.027343-.042969.042968l-97.960938 97.757813c-3.792968 3.785156-5.882812 8.820312-5.882812 14.179687s2.089844 10.394532 5.882812 14.179688l97.960938 97.753906.042969.042969c.035156-.011719.074219-.023438.105469-.039063 0-.003906 0-.007812 0-.015625v-21.921875c0-11.046875 8.957031-20 20.003906-20 11.042968 0 20 8.953125 20 20v21.921875c0 16.234375-9.699219 30.75-24.710938 36.976563-4.996094 2.074218-10.230468 3.082031-15.414062 3.082031zm0 0"></path></svg></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-size-20">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-layout-cell u-size-35 u-layout-cell-5">
+                    <div class="u-container-layout u-container-layout-8">
+                      <div class="u-rotation-parent u-rotation-parent-7"><span class="u-icon u-icon-circle u-rotate-90 u-icon-7"><svg class="u-svg-link u-flip-horizontal u-flip-vertical" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 511" style=""><use xlink:href="#svg-d3ec"></use></svg><svg class="u-svg-content" viewBox="0 0 512 511" id="svg-d3ec"><path d="m143.871094 512.484375c-10.398438 0-20.597656-4.0625-28.28125-11.734375l-97.960938-97.753906c-11.367187-11.34375-17.628906-26.433594-17.628906-42.492188s6.261719-31.152344 17.628906-42.496094l97.960938-97.753906c11.511718-11.492187 28.664062-14.886718 43.695312-8.652344 15.011719 6.226563 24.710938 20.742188 24.710938 36.976563v91.921875c158.804687 0 288.003906-129.199219 288.003906-288.003906v-31.996094c0-11.046875 8.953125-20 20-20s20 8.953125 20 20v31.996094c0 87.613281-34.117188 169.984375-96.070312 231.9375-61.953126 61.949218-144.320313 96.070312-231.933594 96.070312-22.058594 0-40.003906-17.945312-40.003906-40v-91.925781c0-.003906 0-.007813 0-.011719-.03125-.015625-.070313-.03125-.105469-.042968-.011719.015624-.027344.027343-.042969.042968l-97.960938 97.757813c-3.792968 3.785156-5.882812 8.820312-5.882812 14.179687s2.089844 10.394532 5.882812 14.179688l97.960938 97.753906.042969.042969c.035156-.011719.074219-.023438.105469-.039063 0-.003906 0-.007812 0-.015625v-21.921875c0-11.046875 8.957031-20 20.003906-20 11.042968 0 20 8.953125 20 20v21.921875c0 16.234375-9.699219 30.75-24.710938 36.976563-4.996094 2.074218-10.230468 3.082031-15.414062 3.082031zm0 0"></path></svg></span>
+                      </div>
+                      <div class="u-align-center u-container-style u-custom-color-5 u-group u-radius-28 u-shape-round u-group-4">
+                        <div class="u-container-layout u-valign-middle u-container-layout-9">
+                          <p class="u-custom-font u-text u-text-grey-80 u-text-4"> finally, it uses the previous two steps to choose the final bounding boxes that the algorithm is the most confident in</p>
+                        </div>
+                      </div>
+                      <div class="u-rotation-parent u-rotation-parent-8"><span class="u-icon u-icon-circle u-rotate-270 u-icon-8"><svg class="u-svg-link u-flip-vertical" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 511" style=""><use xlink:href="#svg-17ea"></use></svg><svg class="u-svg-content" viewBox="0 0 512 511" id="svg-17ea"><path d="m143.871094 512.484375c-10.398438 0-20.597656-4.0625-28.28125-11.734375l-97.960938-97.753906c-11.367187-11.34375-17.628906-26.433594-17.628906-42.492188s6.261719-31.152344 17.628906-42.496094l97.960938-97.753906c11.511718-11.492187 28.664062-14.886718 43.695312-8.652344 15.011719 6.226563 24.710938 20.742188 24.710938 36.976563v91.921875c158.804687 0 288.003906-129.199219 288.003906-288.003906v-31.996094c0-11.046875 8.953125-20 20-20s20 8.953125 20 20v31.996094c0 87.613281-34.117188 169.984375-96.070312 231.9375-61.953126 61.949218-144.320313 96.070312-231.933594 96.070312-22.058594 0-40.003906-17.945312-40.003906-40v-91.925781c0-.003906 0-.007813 0-.011719-.03125-.015625-.070313-.03125-.105469-.042968-.011719.015624-.027344.027343-.042969.042968l-97.960938 97.757813c-3.792968 3.785156-5.882812 8.820312-5.882812 14.179687s2.089844 10.394532 5.882812 14.179688l97.960938 97.753906.042969.042969c.035156-.011719.074219-.023438.105469-.039063 0-.003906 0-.007812 0-.015625v-21.921875c0-11.046875 8.957031-20 20.003906-20 11.042968 0 20 8.953125 20 20v21.921875c0 16.234375-9.699219 30.75-24.710938 36.976563-4.996094 2.074218-10.230468 3.082031-15.414062 3.082031zm0 0"></path></svg></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="u-container-style u-layout-cell u-size-25 u-layout-cell-6">
+                    <div class="u-container-layout u-container-layout-10">
+                      <img class="u-image u-image-default u-preserve-proportions u-image-4" src="{{url_for('static', filename='images/ScreenShot2021-07-20at11.32.20PM.png')}}" alt="" data-image-width="306" data-image-height="294">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-4af0"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://ai-camp.org" class="u-image u-logo u-image-1" data-image-width="216" data-image-height="220">
+          <img src="https://static.wixstatic.com/media/12b467_a4ceef0f338c41c7885cb083ea36a00f~mv2_d_1742_1743_s_2.png/v1/fill/w_216,h_220,al_c,q_85,usm_0.66_1.00_0.01/ai%20camp%20logo.webp" class="u-logo-image u-logo-image-1" data-image-width="64">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position="">
+          <div class="menu-collapse u-custom-font" style="font-size: 1.5rem; letter-spacing: 0px; font-family: &quot;Zilla Slab&quot;;">
+            <a class="u-button-style u-custom-active-color u-custom-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-nav u-spacing-0 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-grey-90 u-hover-custom-color-1 u-nav-link u-text-active-custom-color-2 u-text-custom-color-2 u-text-hover-custom-color-2" href="{{url_for('home')}}" style="padding: 20px 35px;">Home</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-grey-90 u-hover-custom-color-1 u-nav-link u-text-active-custom-color-2 u-text-custom-color-2 u-text-hover-custom-color-2" href="{{url_for('meetTheTeam')}}" style="padding: 20px 35px;">Meet the Team</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-grey-90 u-hover-custom-color-1 u-nav-link u-text-active-custom-color-2 u-text-custom-color-2 u-text-hover-custom-color-2" href="{{url_for('projectTimeline')}}" style="padding: 20px 35px;">Project Timeline</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-grey-90 u-hover-custom-color-1 u-nav-link u-text-active-custom-color-2 u-text-custom-color-2 u-text-hover-custom-color-2" href="{{url_for('yolo_def')}}" style="padding: 20px 35px;">Definitions + YOLO</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-grey-90 u-hover-custom-color-1 u-nav-link u-text-active-custom-color-2 u-text-custom-color-2 u-text-hover-custom-color-2" href="https://www.ai-camp.org/" target="_blank" style="padding: 20px 35px;">Join AI Camp</a>
+</ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url_for('home')}}" style="padding: 20px 35px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url_for('meetTheTeam')}}" style="padding: 20px 35px;">Meet the Team</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url_for('projectTimeline')}}" style="padding: 20px 35px;">Project Timeline</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url_for('yolo_def')}}" style="padding: 20px 35px;">Definitions + YOLO</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://www.ai-camp.org/" target="_blank" style="padding: 20px 35px;">Join AI Camp</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></footer>
+    
+  </body>
+</html>
