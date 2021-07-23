@@ -34,7 +34,7 @@ names_path = os.path.join('yolo', 'actual_obj.names')
 LABELS = open(names_path).read().strip().split("\n")
 COLORS = np.random.randint(0, 255, size=(len(LABELS), 3), dtype="uint8")
 
-weights_path = os.path.join('yolo', 'yolov4-custom_78_f1.weights')
+weights_path = os.path.join('yolo', 'yolo.weights')
 cfg_path = os.path.join('yolo', 'yolov4-custom.cfg')
 net = get_yolo_net(cfg_path, weights_path)
 
